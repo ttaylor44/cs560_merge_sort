@@ -1,0 +1,29 @@
+Last login: Sat Apr  9 09:46:35 on ttys000
+tarantaylor@d-ip-10-194-75-196 ~ % cd cs560 
+tarantaylor@d-ip-10-194-75-196 cs560 % ls
+a.out			matplotlib-cpp-master	outFile.txt
+in_out			matplotlibtest.cpp	rbs.cpp
+insertion_sort		merge_sort.cpp		test
+insetion_sort.cpp	out
+tarantaylor@d-ip-10-194-75-196 cs560 % g++ -std=c++20 -o out merge_sort.cpp
+tarantaylor@d-ip-10-194-75-196 cs560 % ./out
+Enter number of integers to generate: 100 
+Time taken to sort N integers: 42 microseconds.
+
+
+Output sorted vector to console(c) or file(f)? f
+
+
+Check directory for file named: outFile.txt
+
+
+
+Run Part B? (y/n): y
+
+
+1 is the average runtime for 10 integers.
+23 is the average runtime for 100 integers.
+288 is the average runtime for 1000 integers.
+3171 is the average runtime for 10000 integers.
+tarantaylor@d-ip-10-194-75-196 cs560 % vim outFile.txt 
+tarantaylor@d-ip-10-194-75-196 cs560 % 
